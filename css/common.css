@@ -55,6 +55,7 @@ body {
     box-shadow: 0 14px 0 #E66000;
     color: #FFFFFF;
   }
+  /*눌림 효과*/
   .btn-orange:active {
     box-shadow: 0 4px 0 #E66000;
     transform: translateY(10px);

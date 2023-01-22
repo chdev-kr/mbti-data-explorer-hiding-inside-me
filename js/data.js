@@ -4,14 +4,14 @@ export const questions = [
     question: 'ABC 부트캠프 첫 날, <br> 내 속마음은?',
     choices: [
       { text: '어색해 ㅠㅠ <br>(그래도 점차 친해지겠지?)', value: 'i' },
-      { text: '재밌겠다!얼른 친구 사귀어서 <br>  같이 공부하자고 해야지~', value: 'e' }
+      { text: '재밌겠다!<br> 열심히 해야징!', value: 'e' }
     ]
   },
   {
     number: '02',
     question: 'ABC 부트캠프 수료 하루 전,<br>잠들기 전 나는?',
     choices: [
-      { text: '내일이면 40일 챌린지가 벌써 끝나다니!<br>뿌듯하다 ㅎㅎ', value: 's' },
+      { text: '내일이면 40일 챌린지가 끝나다니!<br>뿌듯하다 ㅎㅎ', value: 's' },
       { text: '아쉽다...<br> (ABC 부트캠프 첫 날부터 오늘까지 회상한다)', value: 'n' }
     ]
   },
@@ -28,7 +28,7 @@ export const questions = [
     question: '방학이다! <br> 방학 시작하자마자 처음 시작한 건?',
     choices: [
       { text: '이번 방학에는 돈도 벌고, 스펙도 쌓아야지!<br> 계획을 짜볼까?', value: 'j' },
-      { text: '당장 우선 좀 쉬고 <br> 재밌는 거 발견하면 하나씩 차근차근 해봐야지!', value: 'p' }
+      { text: '당장 우선 좀 쉬고 <br> 차근차근 생각하자!', value: 'p' }
     ]
   },
   {
@@ -36,14 +36,14 @@ export const questions = [
     question: '속상한 오늘<br>기분이 안 좋아 ㅠㅠ',
     choices: [
       { text: '운동으로 머릿속 생각을 비우자!', value: '' },
-      { text: '속상한 건 행복한 걸로 덮자! 덕질하면서 기분 끌어올려! >0< ', value: '' }
+      { text: '덕질하면서 기분 끌어올려! >0< ', value: '' }
     ]
   },
   {
     number: '06',
     question: '함박눈이 내린다 휴대폰을 들어서<br>내가 한 일은?',
     choices: [
-      { text: '날씨부터 검색해서 눈이 언제 그치는지 확인한다', value: '' },
+      { text: '날씨부터 <br> 검색한다', value: '' },
       { text: '눈 예쁘다 >< 사진 찍어야징!', value: '' }
     ]
   },
@@ -52,22 +52,22 @@ export const questions = [
     question: '졸업 직전, 전공이랑 안 맞는 것 같다<br> 이때 나는?',
     choices: [
       { text: '자퇴 or 편입 or 가즈아~!~!', value: '' },
-      { text: '전공도 살리면서 다른 직무로 갈 수 없을까? <br> 다른 길을 찾아보자!', value: '' }
+      { text: '전공을 살려야 할 거 같은데 ㅠㅠ? <br> 다른 길을 찾아보자!', value: '' }
     ]
   },
   {
     number: '08',
-    question: '공부하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
+    question: '공부하는데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
     choices: [
       { text: '시간을 더 끌 순 없지.<br>교수님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 추가 자습하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
+      { text: '어떡하지.. 남아서라도<br>방법을 더 찾아봐야겠다. ', value: '' }
     ]
   },
   {
     number: '09',
     question: '심심하다 <br> 뭘 할까?',
     choices: [
-      { text: '나가긴 귀찮고 휴대폰 하면서<br> 포근한 이불 속에 파뭍혀야지 @_@', value: '' },
+      { text: '휴대폰 하면서<br> 포근한 이불 속에 파뭍혀야지 @_@', value: '' },
       { text: 'oo이는 뭐하지?<br>연락해봐야겠다!', value: '' }
     ]
   },
