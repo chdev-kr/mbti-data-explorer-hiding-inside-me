@@ -32,7 +32,7 @@ export const questions = [
     ]
   },
   {
-    number: '05',
+    number: '05'
     question: '첫 입사 날!<br>나의 첫 인사말은?',
     choices: [
       { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
