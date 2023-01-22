@@ -1,163 +1,163 @@
 export const questions = [
   {
     number: '01',
-    question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
+    question: 'ABC 부트캠프 첫 날, <br> 내 속마음은?',
     choices: [
-      { text: '파티 스텝은 못하지ㅎ...<br>(그래도 파티는 재밌겠다 히히)', value: 'i' },
-      { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
+      { text: '어색해 ㅠㅠ <br>(그래도 점차 친해지겠지?)', value: 'i' },
+      { text: '재밌겠다!얼른 친구 사귀어서 <br>  같이 공부하자고 해야지~', value: 'e' }
     ]
   },
   {
     number: '02',
-    question: '해외 출장이 잡혔다!<br>전날 잠들기 전 나는?',
+    question: 'ABC 부트캠프 수료 하루 전,<br>잠들기 전 나는?',
     choices: [
-      { text: '짐 다 챙겼고 일찍 자야지~', value: 's' },
-      { text: '다 챙겼겠지?<br>여분 옷을 좀 더 챙길까..(뒤척뒤척)', value: 'n' }
+      { text: '내일이면 40일 챌린지가 벌써 끝나다니!<br>뿌듯하다 ㅎㅎ', value: 's' },
+      { text: '아쉽다...<br> (ABC 부트캠프 첫 날부터 오늘까지 회상한다)', value: 'n' }
     ]
   },
   {
     number: '03',
-    question: '친했던 동기가<br>퇴사를?',
+    question: '같이 공부하는 친구가 <br> 힘들어한다면?',
     choices: [
-      { text: '일하면서 많이 힘들었나?<br>내가 좀 더 챙겨줄걸.', value: 'f' },
-      { text: '아 이직하나?<br>퇴사하고 뭐하냐고 물어봐야지.', value: 't' }
+      { text: 'OO아 같이 옥상가서 바람 쐴까? <br> 많이 힘들어?', value: 'f' },
+      { text: '어떻게 왜 힘든데? <br> 강의 추천해줄게 이 강의 좋더라', value: 't' }
     ]
   },
   {
     number: '04',
-    question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
+    question: '방학이다! <br> 방학 시작하자마자 처음 시작한 건?',
     choices: [
-      { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '이번 방학에는 돈도 벌고, 스펙도 쌓아야지!<br> 계획을 짜볼까?', value: 'j' },
+      { text: '당장 우선 좀 쉬고 <br> 재밌는 거 발견하면 하나씩 차근차근 해봐야지!', value: 'p' }
     ]
   },
   {
-    number: '05'
-    question: '첫 입사 날!<br>나의 첫 인사말은?',
+    number: '05',
+    question: '속상한 오늘<br>기분이 안 좋아 ㅠㅠ',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
-      { text: '안녕하세요! 저는 자취하고 있고요,<br>MBTI는 ~~ (빨리 친해져야지 >0<) ', value: '' }
+      { text: '운동으로 머릿속 생각을 비우자!', value: '' },
+      { text: '속상한 건 행복한 걸로 덮자! 덕질하면서 기분 끌어올려! >0< ', value: '' }
     ]
   },
   {
     number: '06',
-    question: '날씨가 좋아~<br>유난히 일하기 싫은 날엔?',
+    question: '함박눈이 내린다 휴대폰을 들어서<br>내가 한 일은?',
     choices: [
-      { text: '날 좋은데 일이라니.<br>그런데 어쩌겠어? 일해야지!', value: '' },
-      { text: '이럴 때 일할 순 없어!!<br>반차 써버릴 거야!', value: '' }
+      { text: '날씨부터 검색해서 눈이 언제 그치는지 확인한다', value: '' },
+      { text: '눈 예쁘다 >< 사진 찍어야징!', value: '' }
     ]
   },
   {
     number: '07',
-    question: '상사한테 한 소리 들었다.<br>나는?',
+    question: '졸업 직전, 전공이랑 안 맞는 것 같다<br> 이때 나는?',
     choices: [
-      { text: '더 열심히 해서 잘할 수 있다는<br>사람이란 걸 보여주자!', value: '' },
-      { text: '내가 재능이 없나?<br>퇴사각..', value: '' }
+      { text: '자퇴 or 편입 or 가즈아~!~!', value: '' },
+      { text: '전공도 살리면서 다른 직무로 갈 수 없을까? <br> 다른 길을 찾아보자!', value: '' }
     ]
   },
   {
     number: '08',
-    question: '일을 하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
+    question: '공부하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
     choices: [
-      { text: '시간을 더 끌 순 없지.<br>팀장님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 야근하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
+      { text: '시간을 더 끌 순 없지.<br>교수님한테 당장 물어봐야지!', value: '' },
+      { text: '어떡하지.. 추가 자습하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
     ]
   },
   {
     number: '09',
-    question: '좋은 곳에서 이직 제안이 왔다!<br>나의 선택은?',
+    question: '심심하다 <br> 뭘 할까?',
     choices: [
-      { text: '인생은 도전이야!<br>좋은 기회라고 생각하고 시작해볼래!', value: '' },
-      { text: '지금 회사도 좋은데..<br>위험 부담을 안고 이직하는 게 맞을까?', value: '' }
+      { text: '나가긴 귀찮고 휴대폰 하면서<br> 포근한 이불 속에 파뭍혀야지 @_@', value: '' },
+      { text: 'oo이는 뭐하지?<br>연락해봐야겠다!', value: '' }
     ]
   },
   {
     number: '10',
-    question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
+    question: '내가 최연소 팀장이 되었다.<br>나의 마음은?',
     choices: [
-      { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
+      { text: '드디어 팀원들이 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
+      { text: '우리 팀은<br>무조건 1등, 1등, 1등을 위해 달려간다!', value: '' }
     ]
   },
 ]
 export const results = [
-  {
-    title: '출근 시간은<br>내가 정해!',
+  {/*entp, entj, estp*/
+    title: '내 길은 <br>내가 정해!', 
     character: '/images/result_character1.png',
     results: [
       '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
-      '일에 대한 욕심이 많아요.<br>행복한 야근이라고 할 수 있어요!',
-      '자유로운 환경에서 더 잘해요!<br>하지만 누구보다 스스로 시간 관리가 철저해요:)',
+      '일에 대한 욕심이 많아요.<br> 양질의 데이터를 찾는 거라면 야근도 행복해요!',
+      '누구보다 스스로 시간 관리가 철저해요!<br>우리 팀은 기한 내에 꼭 결과물을 제출하게 만들 거예요.:)',
       '리더십 있다는 소리를 자주 들어요.<br>추진력이 있는 편이죠~ (뿌듯)'
     ],
-    jobs: ['프리랜서', '창업가'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    jobs: ['타임키퍼 <br> PM', '추진왕'],
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   },
   {
     title: '프로직진러!<br>진행력 갑',
     character: '/images/result_character2.png',
     results: [
-      '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
-      '여러 사람과 협업이 필요한 직무에 찰떡!',
-      '진행력 갑! 추진력 갑!<br>빠른 속도로 동시에 여러 업무를 해결할 수 있어요.',
-      '회사 행사나 크리스마스 이벤트,<br>회사사람들 생일까지 우리가 다 챙길게요'
+      '나는야 팀원들의 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
+      '여러 사람과 협업이 필요한 직무에 찰떡!<br>팀의 분위기 메이커!',
+      '진행력 갑! 추진력 갑!<br>빠른 속도로 데이터 수집부터 분석, 기획안 작성까지 여러 업무를 해결할 수 있어요.',
+      '우리 팀의 이벤트부터,<br>팀원들의 생일까지 우리가 다 챙길게요'
     ],
-    jobs: ['마케터', '기획자'],
-    lectureImg: '/images/result_lecture2.png',
-    lectureUrl: 'https://bit.ly/3SZl1t9'
+    jobs: ['따뜻한<br>조력자', '기획서<br>작성왕'],
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   },
   {
     title: '우리 무기는<br>상상력!',
     character: '/images/result_character3.png',
     results: [
-      '이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!',
+      '이것저것 관심이 많은 편이에요.<br>머리에서 데이터 활용 주제가 샘솟아요!',
       '섬세함이 장점으로<br>업무를 센스 있게 처리한다는 말을 자주 들어요.',
-      '가끔은 거절을 잘 못해서 일이 몰릴 때가 있지만..!<br>전 괜찮아요~ (프로긍정러)',
-      '업무에 예민할 때도 있지만,<br>그래서 결과물은 완벽하죠!'
+      '가끔은 거절을 잘 못해서 일이 몰릴 때가 있지만..!<br>전 괜찮아요~ 이렇게 다 성장하는거죠 (프로긍정러)',
+      '업무에 예민할 때도 있지만,<br>그래서 저희 기술 포트폴리오 결과물은 완벽하죠!'
     ],
-    jobs: ['디자이너', '예술가'],
-    lectureImg: '/images/result_lecture3.png',
-    lectureUrl: 'https://bit.ly/3DWlesG'
+    jobs: ['분석적인<br>마케터', '섬세한<br>기획자'],
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   },
   {
     title: '인생은<br>한방!',
     character: '/images/result_character4.png',
     results: [
       '전략적으로 계획을 세우는 걸 좋아해요!',
-      '평소 경제와 사회 이슈에 관심이 매우 많아요.',
-      '꿈이 커요!<br>크게 성공할 수 있는 한 방을 이뤄낼 거예요~',
+      '평소 경제와 사회 이슈에 관심이 매우 많아요.<br>데이터를 활용해서 알아보고 싶은 것도 너무 많아요',
+      '꿈이 커요!<br>최우수 수료생과 최우수 팀프로젝트 상은 다 내 거예요!',
       '일할 땐 일하고! 놀 땐 놀고!<br>뭐든 확실한 게 좋아요.'
     ],
-    jobs: ['부동산<br>투자자', '주식<br>투자자'],
-    lectureImg: '/images/result_lecture4.png',
-    lectureUrl: 'https://bit.ly/3fvoTo5'
+    jobs: ['프로젝트<br>리더', '프로젝트<br>매니저'],
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   },
   {
     title: '한 번 집중하면<br>멈출 수 없지!',
     character: '/images/result_character5.png',
     results: [
       '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
-      '혼자서 더 잘해요.<br>솔로 워커 최고!',
-      '관심 분야가 생기면 끝도 없이 깊어져요.<br>다만 이외에 모든 것엔 관심이 없어요.',
+      '혼자서도 잘해요.<br>데이터 다 나한테 맡겨!',
+      '관심 분야가 생기면 끝도 없이 깊어져요.<br>데이터 분석에 빠지면 1인자가 될 자신 있어요.',
       '(이상) <<<<<< (현실)<br>가끔 이성에게 상처를 줄 때가 있어요, 그게 아닌데...'
     ],
     jobs: ['개발자', '데이터분석가'],
-    lectureImg: '/images/result_lecture5.png',
-    lectureUrl: 'https://bit.ly/3U0O3Kj'
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   },
   {
     title: '인생 욜로지~<br>일단 놀자 ><',
     character: '/images/result_character6.png',
     results: [
       '취미가 100개!<br>이것저것 다재다능해요~',
-      '한가하냐고요?<br>원래 백수가 젤 바쁜 거에요!',
-      '결혼사진에 친구들이 다 들어갈 수 있을까요?',
-      '가끔이지만, 갓생살기 도전해요!'
+      '데이터 활용?<br>너무 재밌을 거 같아요!',
+      '새로운 사람들과 함께 40일 챌린지! 너무나 기대돼요!',
+      '챌린지 성공하고, 갓생살자!!'
     ],
-    jobs: ['돈 많은 백수', '유튜버'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    jobs: ['발표는<br>내 것!', 'ppt/영상<br>제작왕'],
+    lectureImg: '/images/result.jpg',
+    lectureUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScTSKu5J20ZgZTl6iUrZcGlj-eQYpFT1V7VO91tE-ISCflhGg/viewform'
   }
 ]
 export const mbtis = {
