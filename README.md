@@ -96,3 +96,8 @@ The Open Graph protocol & Twitter Cards
 ## 웹사이트 업로드하기
 
 [Netlify](https://www.netlify.com/) 서비스에 회원가입 후 웹사이트를 업로드할 수 있어요.
+
+## 카카오톡 og image 변경 안되는 이슈 발생
+- https://developers.kakao.com/tool/debugger/sharing
+카카오톡 디벨로퍼 공유 디버거에서 캐시초기화 -> 디버그 반복
+- 이슈 해결 완
