@@ -4,15 +4,11 @@ mbti test 만들기
 
 # 내 안에 숨어있는 직업캐 찾기!
 
-<a href="https://prismatic-monstera-4c9d6a.netlify.app/" target="_blank">데모 사이트 보기</a> 
+<a href="https://fantastic-hummingbird-e9c0f2.netlify.app/" target="_blank">데모 사이트 보기</a> 
 
 <img src="./screenshot-main.jpg" alt="" width="50%" />
 
-## 기본 리소드 다운로드 
 
-강의 예제에서 사용하는 이미지와 데이터 파일 등을 [다운로드](./assets.zip) 하세요!
-
-<img src="./screenshot-download-assets.jpg" alt="다운로드 방법!" width="60%" />
 
 ## Favicon(파비콘, favorites icon)
 
